@@ -41,5 +41,4 @@ class ColorMaingar {
   static const Color warningFocused = Color(0xffF6D5B7);
   static const Color warningPressed = Color(0xffCC6A0E);
   static const Color warningOutline = Color(0xffFEC188);
-  static const Color arningOutline = Color(0xffFEC188);
 }

@@ -3,9 +3,13 @@ class AssetsMandment {
   static const pathSvg = 'assets/svg/';
   static const pathlotties = 'assets/lotties/';
   // SVG
-  static const appLogo = '${pathSvg}Logo Onboarding.svg';
+  static const appLogo = '${pathSvg}Logo Onboarding (1).svg';
+  static const message = '${pathSvg}Message (2).svg';
+  static const facebooks = '${pathSvg}Facebook.svg';
+  static const googles = '${pathSvg}Google.svg';
 
   // static const  = '${pathSvg}Logo Onboarding.svg';
   static const OnporningOneScreen = '${pathimag}Onboarding Image (1).jpg';
   static const OnporningTowScreen = '${pathimag}Onboarding Image (2).jpg';
+  static const WelcominageScreen = '${pathimag}Onboarding Image (4).jpg';
 }

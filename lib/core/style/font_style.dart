@@ -54,4 +54,15 @@ class TextStyles {
     fontWeight: .w500,
     color: ColorMaingar.black,
   );
+  static TextStyle textS24W6Cb = TextStyle(
+    fontSize: 24,
+    fontWeight: .w600,
+    color: ColorMaingar.black,
+  );
+
+  static TextStyle textS16W4Cg = TextStyle(
+    fontSize: 16,
+    fontWeight: .w400,
+    color: ColorMaingar.gray,
+  );
 }

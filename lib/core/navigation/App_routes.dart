@@ -1,5 +1,6 @@
 import 'package:go_router/go_router.dart';
 import 'package:workspace_app/Features/Splash/Splash_view.dart';
+import 'package:workspace_app/Features/creare_accont/create_accont.dart';
 import 'package:workspace_app/Features/onboarding/onboarding_view.dart';
 import 'package:workspace_app/core/navigation/routes.dart';
 
@@ -12,6 +13,10 @@ class AppRoutes {
     GoRoute(
       path: Routes.kSplashView,
       builder: (context, state) => SplashView(),
+    ),
+    GoRoute(
+      path: Routes.KCreateAccont,
+      builder: (context, state) => CreateAccont(),
     ),
   ];
 

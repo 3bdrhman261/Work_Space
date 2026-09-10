@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'dart:async';
-
 import 'package:go_router/go_router.dart';
 import 'package:workspace_app/core/navigation/routes.dart';
-import 'package:workspace_app/core/style/color_maingar.dart';
+import 'package:workspace_app/core/style/assets_mandment.dart';
+
+import 'package:workspace_app/core/style/font_style.dart';
 
 class SplashView extends StatefulWidget {
   const SplashView({super.key});
@@ -29,28 +30,13 @@ class _SplashViewState extends State<SplashView> {
         child: Column(
           mainAxisAlignment: .center,
           children: [
-            SvgPicture.asset(
-              width: 100,
-              height: 100,
-              'assets/svg/Logo Onboarding.svg',
-            ),
+            SvgPicture.asset(width: 100, height: 100, AssetsMandment.appLogo),
 
-            Text(
-              'Todyapp ',
-              style: TextStyle(
-                fontSize: 26,
-                fontWeight: .bold,
-                color: ColorMaingar.warningBackground,
-              ),
-            ),
+            Text('Todyapp ', style: TextStyles.texts21wBcW),
 
             Text(
               'The best to do list application for you',
-              style: TextStyle(
-                fontSize: 14,
-                fontWeight: .w400,
-                color: ColorMaingar.warningBackground,
-              ),
+              style: TextStyles.textS14W4Cw,
             ),
           ],
         ),

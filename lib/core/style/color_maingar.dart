@@ -2,6 +2,10 @@ import 'package:flutter/widgets.dart';
 import 'dart:ui';
 
 class ColorMaingar {
+  static const Color black = Color.fromARGB(255, 0, 0, 0);
+  static const Color wiet = Color.fromARGB(255, 250, 251, 251);
+  static const Color gray = Color(0xff767E8C);
+
   // --- Brand ---
   static const Color brandDark = Color(0xff11594B);
   static const Color brandDefault = Color(0xff1C967E);

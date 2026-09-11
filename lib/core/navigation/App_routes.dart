@@ -3,6 +3,7 @@ import 'package:workspace_app/Features/Login_Screens/login_Screen.dart';
 import 'package:workspace_app/Features/SignUp/signUp_Screens.dart';
 import 'package:workspace_app/Features/Splash/Splash_view.dart';
 import 'package:workspace_app/Features/creare_accont/create_accont.dart';
+import 'package:workspace_app/Features/home/home_Screen.dart';
 import 'package:workspace_app/Features/onboarding/onboarding_view.dart';
 import 'package:workspace_app/core/navigation/routes.dart';
 
@@ -27,6 +28,10 @@ class AppRoutes {
     GoRoute(
       path: Routes.KSignupScreens,
       builder: (context, state) => SignupScreens(),
+    ),
+    GoRoute(
+      path: Routes.KHomeScreen,
+      builder: (context, state) => HomeScreen(),
     ),
   ];
 

@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
+import 'package:workspace_app/core/navigation/routes.dart';
 import 'package:workspace_app/core/shared/casam_button.dart';
 import 'package:workspace_app/core/shared/text_Feld.dart';
 import 'package:workspace_app/core/style/font_style.dart';
@@ -39,7 +41,12 @@ class _SignupScreensState extends State<SignupScreens> {
             ),
             TextFeldView(hindtext: 'Enter your password', title: 'Password'),
             Spacer(),
-            CasamButton(onPressed: () {}, title: 'Sign Up'),
+            CasamButton(
+              onPressed: () {
+                context.pushReplacement(Routes.KHomeScreen);
+              },
+              title: 'Sign Up',
+            ),
           ],
         ),
       ),

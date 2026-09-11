@@ -65,4 +65,9 @@ class TextStyles {
     fontWeight: .w400,
     color: ColorMaingar.gray,
   );
+  static TextStyle textS16W5CBD = TextStyle(
+    fontSize: 12,
+    fontWeight: .w500,
+    color: ColorMaingar.brandDefault,
+  );
 }

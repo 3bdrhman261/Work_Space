@@ -4,4 +4,5 @@ class Routes {
   static const KCreateAccont = '/CreateAccont';
   static const KLoginScreen = '/LoginScreen';
   static const KSignupScreens = '/SignupScreens';
+  static const KHomeScreen = '/HomeScreen';
 }

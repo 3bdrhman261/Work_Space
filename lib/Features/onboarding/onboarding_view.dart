@@ -38,7 +38,7 @@ class _OnboardingViewState extends State<OnboardingView> {
       backgroundColor: const Color.fromRGBO(250, 251, 251, 1),
       body: Padding(
         padding: .only(
-          top: Utils.getHieght(context: context, widgetHieght: 40),
+          top: Utils.getHieght(context: context, widgetHieght: 20),
         ),
         child: Column(
           children: [

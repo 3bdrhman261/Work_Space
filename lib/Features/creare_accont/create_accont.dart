@@ -20,7 +20,7 @@ class CreateAccont extends StatelessWidget {
       body: Padding(
         padding: .only(
           bottom: Utils.getwidth(context: context, widgetwidth: 30),
-          top: Utils.getwidth(context: context, widgetwidth: 50),
+          top: Utils.getwidth(context: context, widgetwidth: 30),
         ),
 
         child: Center(

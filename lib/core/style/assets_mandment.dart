@@ -7,6 +7,7 @@ class AssetsMandment {
   static const message = '${pathSvg}Message (2).svg';
   static const facebooks = '${pathSvg}Facebook.svg';
   static const googles = '${pathSvg}Google.svg';
+  static const setting = '${pathSvg}Setting.svg';
 
   // static const  = '${pathSvg}Logo Onboarding.svg';
   static const OnporningOneScreen = '${pathimag}Onboarding Image (1).jpg';

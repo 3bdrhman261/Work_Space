@@ -1,3 +1,5 @@
+import 'package:workspace_app/core/style/color_maingar.dart';
+
 class AssetsMandment {
   static const pathimag = 'assets/images/';
   static const pathSvg = 'assets/svg/';
@@ -8,6 +10,7 @@ class AssetsMandment {
   static const facebooks = '${pathSvg}Facebook.svg';
   static const googles = '${pathSvg}Google.svg';
   static const setting = '${pathSvg}Setting.svg';
+  static const plus = '${pathSvg}Plus.svg';
 
   // static const  = '${pathSvg}Logo Onboarding.svg';
   static const OnporningOneScreen = '${pathimag}Onboarding Image (1).jpg';
